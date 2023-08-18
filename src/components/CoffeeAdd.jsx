@@ -42,7 +42,7 @@ const CoffeeAdd = () => {
     }
     return (
         <div className='p-20 bg-[#F4F3F0]'>
-            <h2 className='text-center text-3xl font-extrabold'>Please Add a Coffee!!!</h2>
+            <h2 className='text-center text-3xl font-extrabold mb-4'>Please Add a Coffee!!!</h2>
             <form onSubmit={handleAddCoffee}>
                 <div className='md:flex gap-4 mb-8'>
                     <div className="form-control md:w-1/2">
